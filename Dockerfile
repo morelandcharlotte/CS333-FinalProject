@@ -2,10 +2,10 @@
 FROM python:3.9
 
 # Set the working directory in the container
-WORKDIR /app
+WORKDIR /main
 
 # Copy the contents of the current directory into the container
-COPY . /app
+COPY . /main
 
 # Install any required packages
 RUN pip install -r requirements.txt
