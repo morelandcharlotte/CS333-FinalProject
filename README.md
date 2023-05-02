@@ -1,8 +1,8 @@
 # CS333-FinalProject
-// Created by: Charlotte Moreland
-// Date: 5/1/23
-// Class: CS 333
-// Assignment: Final Project
+- Created by: Charlotte Moreland
+- Date: 5/1/23
+- Class: CS 333
+- Assignment: Final Project
 
 
 Build and Test Infrastructure:
