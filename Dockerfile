@@ -11,4 +11,4 @@ COPY . /main
 RUN pip install -r requirements.txt
 
 # Set the command to run when the container starts
-CMD ["python", "mai.py"]
+CMD ["python", "main.py"]
