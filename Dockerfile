@@ -9,6 +9,6 @@ COPY . /main
 
 # Install any required packages
 RUN pip install -r requirements.txt
-
+RUN python main.py
 # Set the command to run when the container starts
 CMD ["python", "main.py"]
