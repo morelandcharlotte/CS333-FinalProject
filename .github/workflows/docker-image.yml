@@ -18,4 +18,4 @@ jobs:
       run: docker build -t finalproject .
       
     - name: Run Docker Image
-      run: docker run finalproject
+      run: docker build -t finalproject
