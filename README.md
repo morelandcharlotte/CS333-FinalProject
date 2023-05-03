@@ -15,4 +15,5 @@ Build and Deployment Infrastructure:
 - The build and deploy the code there is a yml file in place in the Github workflows folder
 - This yml will run the dockerfile that is in place in the repository in order to build
 - the docker image for deployment. Once the docker image is built, the built image is then
-- stored in Docker Hub which can be seen in this repo: 
+- stored in Docker Hub which can be seen in this repo:
+https://hub.docker.com/repository/docker/smoreland10/finalproject/general
