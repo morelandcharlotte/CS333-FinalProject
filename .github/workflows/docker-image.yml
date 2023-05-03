@@ -23,7 +23,7 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag finalproject:$(date +%s)
     - name: Tag Image
-      run: docker tag finalproject morelandcharlotte
+      run: docker tag finalproject:$(date +%s) morelandcharlotte
       
     - name: Docker Push
       run: docker push ${{secrets.DOCKER_USER}}/cs333-finalproject:morelandcharlotte
