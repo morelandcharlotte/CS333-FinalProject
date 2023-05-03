@@ -14,6 +14,5 @@ Build and Test Infrastructure:
 Build and Deployment Infrastructure:
 - The build and deploy the code there is a yml file in place in the Github workflows folder
 - This yml will run the dockerfile that is in place in the repository in order to build
-- the docker image for deployment. Thus, all the user must do it run the docker image on their
-- machine in order to use the program. For the user input to be usable the user must run the 
-- docker image with the command -it in order to see the correct program function.
+- the docker image for deployment. Once the docker image is built, the built image is then
+- stored in Docker Hub which can be seen in this repo: 
