@@ -21,7 +21,7 @@ jobs:
       run: | 
         docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
     - name: Build the Docker image
-      run: docker build . finalproject
+      run: docker build . --file Dockerfile --tag finalproject:$(date +%s)
     - name: Tag Image
       run: docker tag finalproject morelandcharlotte
       
